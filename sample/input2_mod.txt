@@ -1,0 +1,8 @@
+1
+Learn(Sit,Ares)
+5
+Ready(x) => Train(Come,x)
+Healthy(x) & Train(y,x) => Learn(y,x)
+Learn(Come,x) => Train(Sit,x)
+Ready(Ares)
+Healthy(Ares)
